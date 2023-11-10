@@ -1,12 +1,14 @@
 from pathlib import Path
 from openai import OpenAI
 
-# open connection to 
+# open connection to
 client = OpenAI(api_key = "<SECRET-API-KEY>")
 
 # read video transcript
 with open("transcript.txt") as f:
     transcript = f.readlines()
+
+print(transcript)
 
 # read the transcript once in every available language
 for voice in ["alloy","echo","fable","onyx","nova","shimmer"]:
