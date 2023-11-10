@@ -17,7 +17,6 @@ if("all" in arguments):
 
 # open connection to
 client = OpenAI(api_key = "<SECRET-API-KEY>")
-client = OpenAI(api_key = "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")
 
 # read video transcript
 with open("transcript.txt") as f:
