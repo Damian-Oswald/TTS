@@ -20,4 +20,8 @@ By default, the `alloy` voice will be used. However, you can set any number of o
 python3 TTS.py nova fable
 ```
 
-Or, if you'd like to generate all possible voices at once, simply use `python3 TTS.py nova fable`.
+Or, if you'd like to generate all possible voices at once, simply use the `all` argument.
+
+```
+python3 TTS.py all
+```
